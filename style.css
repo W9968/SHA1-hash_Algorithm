@@ -1,0 +1,40 @@
+html,
+body {
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    vertical-align: middle;
+    background-color: #111111;
+}
+
+.wrapper {
+    width: 70%;
+    padding: 10%;
+    display: flex;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px gray;
+    justify-content: center;
+}
+
+.btn {
+    border: none;
+    color: #FFF;
+    border-radius: 0%;
+    border: 1px solid #FFF;
+    transition: 0.5s ease-in-out;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.btn:hover{
+    background-color: #FFF;
+    transition: 0.5s ease-in-out;
+}
+
+.input {
+    border: none;
+    border-radius: 0%;
+}
